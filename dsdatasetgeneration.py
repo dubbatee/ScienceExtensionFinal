@@ -142,8 +142,3 @@ plt.title('DS LMC cleansed m vs logP')
 plt.ylim(12, 23)
 plt.xlim(-1.6,-0.4)
 plt.show()
-
-
-
-
-
