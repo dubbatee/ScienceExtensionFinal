@@ -101,8 +101,8 @@ FundamentalblgcephF['SMCmodeldist'] = FundSMCcephDistance(FundamentalblgcephF['I
 
 FundamentalblgcephF['LMCmodeldist'] = FundLMCcephDistance(FundamentalblgcephF['I'], FundamentalblgcephF['P1'])
 
-print('Fundamental BULGE SMC CEPH Accuracy %', statistics.mean(star_dist_accuracy(FundamentalblgcephF['SMCmodeldist'], FundamentalblgcephF['Distance'])))
-print('Fundamental BULGE LMC CEPH Accuracy %', statistics.mean(star_dist_accuracy(FundamentalblgcephF['LMCmodeldist'], FundamentalblgcephF['Distance'])))
+print('Fundamental BULGE SMC CEPH Accuracy %', statistics.median(star_dist_accuracy(FundamentalblgcephF['SMCmodeldist'], FundamentalblgcephF['Distance'])))
+print('Fundamental BULGE LMC CEPH Accuracy %', statistics.median(star_dist_accuracy(FundamentalblgcephF['LMCmodeldist'], FundamentalblgcephF['Distance'])))
 
 ###
 
@@ -112,8 +112,8 @@ FirstOvertoneblgcephF['SMCmodeldist'] = FOSMCcephDistance(FirstOvertoneblgcephF[
 
 FirstOvertoneblgcephF['LMCmodeldist'] = FOLMCcephDistance(FirstOvertoneblgcephF['I'], FirstOvertoneblgcephF['P1'])
 
-print('FirstOvertone BULGE SMC CEPH Accuracy %', statistics.mean(star_dist_accuracy(FirstOvertoneblgcephF['SMCmodeldist'], FirstOvertoneblgcephF['Distance'])))
-print('FirstOvertone BULGE LMC CEPH Accuracy %', statistics.mean(star_dist_accuracy(FirstOvertoneblgcephF['LMCmodeldist'], FirstOvertoneblgcephF['Distance'])))
+print('FirstOvertone BULGE SMC CEPH Accuracy %', statistics.median(star_dist_accuracy(FirstOvertoneblgcephF['SMCmodeldist'], FirstOvertoneblgcephF['Distance'])))
+print('FirstOvertone BULGE LMC CEPH Accuracy %', statistics.median(star_dist_accuracy(FirstOvertoneblgcephF['LMCmodeldist'], FirstOvertoneblgcephF['Distance'])))
 
 ###
 
@@ -123,8 +123,8 @@ FundamentaldiskcephF['SMCmodeldist'] = FundSMCcephDistance(FundamentaldiskcephF[
 
 FundamentaldiskcephF['LMCmodeldist'] = FundLMCcephDistance(FundamentaldiskcephF['I'], FundamentaldiskcephF['P1'])
 
-print('Fundamental DISK SMC CEPH Accuracy %', statistics.mean(star_dist_accuracy(FundamentaldiskcephF['SMCmodeldist'], FundamentaldiskcephF['Distance'])))
-print('Fundamental DISK LMC CEPH Accuracy %', statistics.mean(star_dist_accuracy(FundamentaldiskcephF['LMCmodeldist'], FundamentaldiskcephF['Distance'])))
+print('Fundamental DISK SMC CEPH Accuracy %', statistics.median(star_dist_accuracy(FundamentaldiskcephF['SMCmodeldist'], FundamentaldiskcephF['Distance'])))
+print('Fundamental DISK LMC CEPH Accuracy %', statistics.median(star_dist_accuracy(FundamentaldiskcephF['LMCmodeldist'], FundamentaldiskcephF['Distance'])))
 
 ###
 
@@ -134,8 +134,8 @@ FirstOvertonediskcephF['SMCmodeldist'] = FundSMCcephDistance(FirstOvertonediskce
 
 FirstOvertonediskcephF['LMCmodeldist'] = FundLMCcephDistance(FirstOvertonediskcephF['I'], FirstOvertonediskcephF['P1'])
 
-print('FirstOvertone DISK SMC CEPH Accuracy %', statistics.mean(star_dist_accuracy(FirstOvertonediskcephF['SMCmodeldist'], FirstOvertonediskcephF['Distance'])))
-print('FirstOvertone DISK LMC CEPH Accuracy %', statistics.mean(star_dist_accuracy(FirstOvertonediskcephF['LMCmodeldist'], FirstOvertonediskcephF['Distance'])))
+print('FirstOvertone DISK SMC CEPH Accuracy %', statistics.median(star_dist_accuracy(FirstOvertonediskcephF['SMCmodeldist'], FirstOvertonediskcephF['Distance'])))
+print('FirstOvertone DISK LMC CEPH Accuracy %', statistics.median(star_dist_accuracy(FirstOvertonediskcephF['LMCmodeldist'], FirstOvertonediskcephF['Distance'])))
 
 ###
 
