@@ -105,8 +105,8 @@ FundamentalblgdsF['SMCmodeldist'] = FundSMCdsDistance(FundamentalblgdsF['I'], Fu
 
 FundamentalblgdsF['LMCmodeldist'] = FundLMCdsDistance(FundamentalblgdsF['I'], FundamentalblgdsF['P1'])
 
-print('Fundamental BULGE SMC DS Accuracy %', statistics.mean(star_dist_accuracy(FundamentalblgdsF['SMCmodeldist'], FundamentalblgdsF['Distance'])))
-print('Fundamental BULGE LMC DS Accuracy %', statistics.mean(star_dist_accuracy(FundamentalblgdsF['LMCmodeldist'], FundamentalblgdsF['Distance'])))
+print('Fundamental BULGE SMC DS Accuracy %', statistics.median(star_dist_accuracy(FundamentalblgdsF['SMCmodeldist'], FundamentalblgdsF['Distance'])))
+print('Fundamental BULGE LMC DS Accuracy %', statistics.median(star_dist_accuracy(FundamentalblgdsF['LMCmodeldist'], FundamentalblgdsF['Distance'])))
 
 ###
 
@@ -116,8 +116,8 @@ FirstOvertoneblgdsF['SMCmodeldist'] = FOSMCdsDistance(FirstOvertoneblgdsF['I'], 
 
 FirstOvertoneblgdsF['LMCmodeldist'] = FOLMCdsDistance(FirstOvertoneblgdsF['I'], FirstOvertoneblgdsF['P2'])
 
-print('FirstOvertone BULGE SMC DS Accuracy %', statistics.mean(star_dist_accuracy(FirstOvertoneblgdsF['SMCmodeldist'], FirstOvertoneblgdsF['Distance'])))
-print('FirstOvertone BULGE LMC DS Accuracy %', statistics.mean(star_dist_accuracy(FirstOvertoneblgdsF['LMCmodeldist'], FirstOvertoneblgdsF['Distance'])))
+print('FirstOvertone BULGE SMC DS Accuracy %', statistics.median(star_dist_accuracy(FirstOvertoneblgdsF['SMCmodeldist'], FirstOvertoneblgdsF['Distance'])))
+print('FirstOvertone BULGE LMC DS Accuracy %', statistics.median(star_dist_accuracy(FirstOvertoneblgdsF['LMCmodeldist'], FirstOvertoneblgdsF['Distance'])))
 
 ###
 
@@ -127,8 +127,8 @@ FundamentaldiskdsF['SMCmodeldist'] = FundSMCdsDistance(FundamentaldiskdsF['I'], 
 
 FundamentaldiskdsF['LMCmodeldist'] = FundLMCdsDistance(FundamentaldiskdsF['I'], FundamentaldiskdsF['P1'])
 
-print('Fundamental DISK SMC DS Accuracy %', statistics.mean(star_dist_accuracy(FundamentaldiskdsF['SMCmodeldist'], FundamentaldiskdsF['Distance'])))
-print('Fundamental DISK LMC DS Accuracy %', statistics.mean(star_dist_accuracy(FundamentaldiskdsF['LMCmodeldist'], FundamentaldiskdsF['Distance'])))
+print('Fundamental DISK SMC DS Accuracy %', statistics.median(star_dist_accuracy(FundamentaldiskdsF['SMCmodeldist'], FundamentaldiskdsF['Distance'])))
+print('Fundamental DISK LMC DS Accuracy %', statistics.median(star_dist_accuracy(FundamentaldiskdsF['LMCmodeldist'], FundamentaldiskdsF['Distance'])))
 
 ###
 
@@ -138,8 +138,8 @@ FirstOvertonediskdsF['SMCmodeldist'] = FundSMCdsDistance(FirstOvertonediskdsF['I
 
 FirstOvertonediskdsF['LMCmodeldist'] = FundLMCdsDistance(FirstOvertonediskdsF['I'], FirstOvertonediskdsF['P1'])
 
-print('FirstOvertone DISK SMC DS Accuracy %', statistics.mean(star_dist_accuracy(FirstOvertonediskdsF['SMCmodeldist'], FirstOvertonediskdsF['Distance'])))
-print('FirstOvertone DISK LMC DS Accuracy %', statistics.mean(star_dist_accuracy(FirstOvertonediskdsF['LMCmodeldist'], FirstOvertonediskdsF['Distance'])))
+print('FirstOvertone DISK SMC DS Accuracy %', statistics.median(star_dist_accuracy(FirstOvertonediskdsF['SMCmodeldist'], FirstOvertonediskdsF['Distance'])))
+print('FirstOvertone DISK LMC DS Accuracy %', statistics.median(star_dist_accuracy(FirstOvertonediskdsF['LMCmodeldist'], FirstOvertonediskdsF['Distance'])))
 
 ###
 
