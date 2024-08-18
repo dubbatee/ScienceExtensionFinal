@@ -62,7 +62,7 @@ plt.xlabel('Log10 of Period(days)')
 plt.ylabel('Absolute I-band Mag')
 LOBF = [i * a + b for i in x]
 plt.plot(x, LOBF, color = "red")
-plt.text(1.25, -3, 'M = ' + format(a.round(3)) + 'logP ' + "+ " + format(b.round(3)))
+plt.text(0.4, -6, 'M = ' + format(a.round(3)) + 'logP ' + "+ " + format(b.round(3)))
 plt.title('CEPH SMC Fundamental Mode M vs logP')
 plt.show()
 
@@ -78,7 +78,7 @@ plt.xlabel('Log10 of Period(days)')
 plt.ylabel('Absolue I-band Mag')
 LOBF = [i * c + d for i in q]
 plt.plot(q, LOBF, color = "red")
-plt.text(1.25, -3, 'M = ' + format(c.round(3)) + 'logP ' + "+ " + format(d.round(3)))
+plt.text(0.4, -5, 'M = ' + format(c.round(3)) + 'logP ' + "+ " + format(d.round(3)))
 plt.title('CEPH LMC Fundamental Mode M vs logP')
 plt.show()
 
@@ -96,7 +96,7 @@ plt.xlabel('Log10 of Period(days)')
 plt.ylabel('Absolute I-band Mag')
 LOBF = [i * m + n for i in x]
 plt.plot(x, LOBF, color = "red")
-plt.text(0.4, -2, 'M = ' + format(m.round(3)) + 'logP ' + "+ " + format(n.round(3)))
+plt.text(-0.2, -4, 'M = ' + format(m.round(3)) + 'logP ' + "+ " + format(n.round(3)))
 plt.title('CEPH SMC First Overtone M vs logP')
 plt.show()
 
@@ -112,6 +112,6 @@ plt.xlabel('Log10 of Period(days)')
 plt.ylabel('Absolue I-band Mag')
 LOBF = [i * k + l for i in q]
 plt.plot(q, LOBF, color = "red")
-plt.text(0.4, -2, 'M = ' + format(k.round(3)) + 'logP ' + "+ " + format(l.round(3)))
+plt.text(-0.2, -5, 'M = ' + format(k.round(3)) + 'logP ' + "+ " + format(l.round(3)))
 plt.title('CEPH LMC First Overtone M vs logP')
 plt.show()
